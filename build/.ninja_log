@@ -1,0 +1,5 @@
+# ninja log v5
+2	203	0	CMakeFiles/Robot.dir/main.obj	acc4cef6f90e224b
+1	205	0	CMakeFiles/Megatron.dir/megatron.obj	45ee013a58397e9e
+206	258	0	libMegatron.a	23459fd12ae31916
+259	589	0	Robot	6faf18813fb0fbce
