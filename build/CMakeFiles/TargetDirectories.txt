@@ -1,4 +1,0 @@
-C:/Users/Nikolay/Desktop/CMake_LibTest/build/CMakeFiles/Megatron.dir
-C:/Users/Nikolay/Desktop/CMake_LibTest/build/CMakeFiles/rebuild_cache.dir
-C:/Users/Nikolay/Desktop/CMake_LibTest/build/CMakeFiles/Robot.dir
-C:/Users/Nikolay/Desktop/CMake_LibTest/build/CMakeFiles/edit_cache.dir

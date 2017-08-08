@@ -5,14 +5,15 @@
 attrib +r "CMake_Then_Ninja.bat"
 
 ::We delete all files in the build directory
-del /S /Q "C:\Users\Nikolay\Desktop\CMake_LibTest\build" >nul
+del /S /Q "C:\Users\Nikolay\Desktop\CMake_Lib_Test\build" >nul
 
-::We remove the CMakeFiles folder to
-::generate a fresh working copy
-rmdir /S /Q "C:\Users\Nikolay\Desktop\CMake_LibTest\build\CMakeFiles" >nul
+::We remove the CMakeFiles folder, bin folder, and include folder
+rmdir /S /Q "C:\Users\Nikolay\Desktop\CMake_Lib_Test\build\CMakeFiles" >nul
+rmdir /S /Q "C:\Users\Nikolay\Desktop\CMake_Lib_Test\build\include" >nul
+rmdir /S /Q "C:\Users\Nikolay\Desktop\CMake_Lib_Test\build\bin" >nul
 
 ::We run CMake to generate the ninja build files
-cmake -DCMAKE_TOOLCHAIN_FILE="C:\Users\Nikolay\Desktop\CMake_LibTest\bcc64.cmake" -G Ninja "C:\Users\Nikolay\Desktop\CMake_LibTest\src"
+cmake -DCMAKE_TOOLCHAIN_FILE="C:\Users\Nikolay\Desktop\CMake_Lib_Test\bcc64.cmake" -G Ninja "C:\Users\Nikolay\Desktop\CMake_Lib_Test\src"
 
 ::We run ninja on build files
 ninja
